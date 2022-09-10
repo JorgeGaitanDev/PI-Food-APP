@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 8px;
+    
+}
+
+.nav_component{
+    background-color: #a3d921;
+    color: #fff;
+     margin: 6px 5px 6px 5px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 8px;
+    transition: all 500ms ease;
+}
+
+.nav_component:hover {
+    box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.2);
+    filter: opacity(0.9);
+    transform: translateY(-3%);
+    background-color: #046425;
+}
+
+.text {
+    text-decoration: none;
+    font-weight: 300;
+    color:rgb(7, 66, 25);
+    transition: all 500ms ease;
+}
+
+.text:hover {
+    text-decoration: none;
+    font-weight: 300;
+    color:white;
+}
+
+.icon {
+    justify-content: flex-start;
+    margin-right: 3.5vh;
+}
+.icon img{
+    width: 10vh;
+    height: 8.6vh;
+}
+
+/* TODO recordatorio  : recuerda revissar favoritos ahi habian unos efectos hover muy bonitos */
